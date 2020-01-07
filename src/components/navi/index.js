@@ -3,42 +3,23 @@ import { Link } from 'gatsby'
 
 class Navi extends React.Component {
   render() {
-    const { location, title } = this.props
     return (
-      <nav className="navbar navbar-expand navbar-dark flex-column flex-md-row bg-primary">
-        <div className="container">
-          <Link className="text-center" to="/">
-            <h1 className="navbar-brand mb-0">{title}</h1>
-          </Link>
-          <div className="navbar-nav-scroll">
-            <ul className="navbar-nav bd-navbar-nav flex-row">
-              <li
-                className={
-                  location.pathname === '/' ? 'nav-item active' : 'nav-item'
-                }
-              >
-                <Link to="/" className="nav-link">
-                  Home
-                </Link>
-              </li>
-              <li
-                className={
-                  location.pathname === '/profile/'
-                    ? 'nav-item active'
-                    : 'nav-item'
-                }
-              >
-                <Link to="/profile/" className="nav-link">
-                  Profile
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div className="navbar-nav flex-row ml-md-auto d-none d-md-flex" />
-        </div>
+      <nav className="navbar navbar-expand navbar-dark flex-column flex-md-row d-flex  justify-space-between align-items-center">
+        <p class="header-logo p-2">SH</p>
+        <ul className="list-unstyled d-flex ml-auto ">
+          <li>
+            <Link to="/" className="nav-link text-dark">Home</Link>
+          </li>
+          <li className="ml-3">
+            <Link to="/about" className="nav-link text-dark">About</Link>
+          </li>
+          <li className="ml-3">
+            <Link to="/contact" className="nav-link text-dark">Contact</Link>
+          </li>
+        </ul>
+
       </nav>
     )
   }
 }
-
 export default Navi

@@ -1,67 +1,12 @@
-import { graphql } from 'gatsby'
 import React from 'react'
-import get from 'lodash/get'
-
-import Post from 'templates/post'
-import Meta from 'components/meta'
 import Layout from 'components/layout'
 
-const BlogIndex = ({ data, location }) => {
-  const posts = get(data, 'remark.posts')
+const HomePage = (props) => {
   return (
-    <Layout location={location}>
-      <Meta site={get(data, 'site.meta')} />
-      {posts.map(({ post }, i) => (
-        <Post
-          data={post}
-          options={{
-            isIndex: true,
-          }}
-          key={i}
-        />
-      ))}
+    <Layout location={props.location}>
+      <h2 className="mb-0 display-4 py-5 text-center">Hello, my name is Heena. <br/> I am a Front End Developer, living in Hyderabad, INDIA </h2>
     </Layout>
   )
 }
 
-export default BlogIndex
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    site {
-      meta: siteMetadata {
-        title
-        description
-        url: siteUrl
-        author
-        twitter
-        adsense
-      }
-    }
-    remark: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      posts: edges {
-        post: node {
-          html
-          frontmatter {
-            layout
-            title
-            path
-            category
-            tags
-            description
-            date(formatString: "YYYY/MM/DD")
-            image {
-              childImageSharp {
-                fluid(maxWidth: 500) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-`
+export default HomePage

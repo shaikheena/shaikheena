@@ -13,19 +13,19 @@ import 'font-awesome/css/font-awesome.css'
 
 class Layout extends React.Component {
   componentDidMount() {
-    emergence.init()
   }
 
   componentDidUpdate() {
-    emergence.init()
   }
 
   render() {
     const { children } = this.props
     return (
-      <div>
+      <div className="layout-border ">
         <Navi title={siteMetadata.title} {...this.props} />
-        {children}
+        <div className="container">
+          {children}
+        </div>
         <Footer title={siteMetadata.title} author={siteMetadata.author} />
       </div>
     )

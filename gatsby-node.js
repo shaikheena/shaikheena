@@ -36,15 +36,7 @@ exports.createPages = ({ graphql, actions }) => {
 
         // Create blog posts & pages.
         const items = data.allFile.edges
-        const posts = items.filter(({ node }) => /posts/.test(node.name))
-        each(posts, ({ node }) => {
-          if (!node.remark) return
-          const { path } = node.remark.frontmatter
-          createPage({
-            path,
-            component: PostTemplate,
-          })
-        })
+
 
         const pages = items.filter(({ node }) => /page/.test(node.name))
         each(pages, ({ node }) => {

@@ -88,3 +88,21 @@ img {
 img:hover {
   animation: pulse 0.5s;
 }
+.footer-head{
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.copyright{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+}
+.header-logo{
+  border: 5px solid black;
+  font-weight: bold;
+  color: black;
+}
+.layout-border{
+  border: 10px solid black;
+  padding: 25px;
+  min-height: 100vh;
+}
