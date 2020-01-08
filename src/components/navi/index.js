@@ -4,26 +4,27 @@ import { Link } from 'gatsby'
 class Navi extends React.Component {
   render() {
     return (
-      <nav className="navbar navbar-expand navbar-dark flex-column flex-md-row d-flex  justify-space-between align-items-center">
-        <p class="header-logo p-2">SH</p>
-        <ul className="list-unstyled d-flex ml-auto ">
-          <li>
-            <Link to="/" className="nav-link text-dark">Home</Link>
-          </li>
-          <li className="ml-3">
-            <Link to="/about" className="nav-link text-dark">About</Link>
-          </li>
-          <li className="ml-3">
-            <Link to="/project" className="nav-link text-dark">Projects</Link>
-          </li>
-          <li className="ml-3">
-            <Link to="/experience" className="nav-link text-dark">Experience</Link>
-          </li>
-          <li className="ml-3">
-            <Link to="/contact" className="nav-link text-dark">Contact</Link>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand header-logo p-2" href="#">SH</a>
+        
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <Link to="/" className="nav-link text-dark">Home</Link>
+            </li>
+            <li class="nav-item active">
+              <Link to="/about" className="nav-link text-dark">About</Link>
+            </li>
+            <li class="nav-item active">
+              <Link to="/experience" className="nav-link text-dark">Experience</Link>
+            </li>
+            <li class="nav-item active">
+              <Link to="/contact" className="nav-link text-dark">Contact</Link>
+            </li>
+          </ul>
+
+        </div>
       </nav>
     )
   }
