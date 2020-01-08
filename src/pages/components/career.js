@@ -2,7 +2,7 @@ import React from 'react'
 
 export default () => (
     <div>
-        <h3><u>Career Summary</u></h3>
+        <h3 className="text-warning">Career Summary</h3>
             <ul >
                 <li>Having 2.6 years of IT Experience as a Front End Web Developer in developing Software Application using Html5, Css3 , Bootstrap, Javascript, jQuery, ReactJS in the field of Web Technology and Client side applications.</li>
                 <li>Excellent skills in developing websites , Strong knowledge on developing web  ui</li>

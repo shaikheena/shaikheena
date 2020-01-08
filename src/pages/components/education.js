@@ -2,7 +2,7 @@ import React from 'react'
 
 export default () => (
     <div>
-        <h3>Education</h3>
+        <h3 className="text-warning">Education</h3>
         <div className="pl-2">
         <div className="mb-3">
             <p className="mb-0 font-weight-bold">Vignan's Nirula Institute of Technology and  Science for Womens - JNTU-K (April 2014)</p>

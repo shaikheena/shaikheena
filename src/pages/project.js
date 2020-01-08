@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 export default () => (
     <Layout>
-        <h3 className="mt-3">Recent Projects</h3>
+        <h3 className="mt-3 text-warning">Recent Projects</h3>
         <div className="p-3">
             <div className="mb-5 d-flex align-items-center">
                 <img className="project-logo" src="https://www.playat.in/images/playatIcon.png" />

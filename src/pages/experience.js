@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 export default () => (
     <Layout>
     <div>
-        <h3 className="experience-title">Employment Experience </h3>
+        <h3 className="experience-title text-warning">Employment Experience </h3>
         <div className="p-3">
         <div className="mb-5">
             <p className="mb-0 company-name">Turpy Mobile Apps Pvt. Ltd, HYD (June 2017–  Present)</p>

@@ -7,7 +7,7 @@ export default () => (
     <Layout>
         <div class="container">
 
-            <h3>About</h3>
+            <h3 className="text-warning">About</h3>
             <p className="pl-2">I am <b>Shaik Heena</b>. Flexible , Reliable and possess excellent time keeping skills. Love to
                 understanding people's problems and finding ways to solve them. Handling work independently in
                 busy environment and also within a team setting. And always open up for new challenges. Strive
