@@ -5,8 +5,7 @@ export default () => (
         <div className="container">
             <h3 className="mt-3 text-warning">Recent Projects</h3>
             <div className="row p-3 ">
-                <div className="mb-5 d-flex align-items-center">
-                    <div className="col-md-3">
+                    <div className="col-md-3 mb-5 d-flex align-items-center">
                         <img className="project-logo" src="https://www.playat.in/images/playatIcon.png" />
                     </div>
                     <div className="col-md-9 ml-3 p-3">
@@ -17,9 +16,7 @@ export default () => (
                  at the  Sports Arena </p>
                         <p><strong>My Role</strong>: <i>​Developing web UI and integrating into ReactJs Application</i>  </p>
                     </div>
-                </div>
-                <div className="mb-5 d-flex align-items-center">
-                    <div className="col-md-3">
+                    <div className="col-md-3 mb-5 d-flex align-items-center">
                         <img className="project-logo" src="https://lvr2.ibts.org/assets/images/lvr_logo.png" />
                     </div>
                     <div className="col-md-9 ml-3 p-3">
@@ -28,7 +25,6 @@ export default () => (
                         staff to process the  request and issue the final letters and certificates via an online web-based fulfillment process </p>
                         <p><strong>My Role</strong>: <i >​Developing UI components in HTML and CSS along with jQuery</i>  </p>
                     </div>
-                </div>
             </div>
         </div>
     </Layout>
