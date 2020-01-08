@@ -11,16 +11,16 @@ class Navi extends React.Component {
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item ">
               <Link to="/" className="nav-link text-dark">Home</Link>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item ">
               <Link to="/about" className="nav-link text-dark">About</Link>
             </li>
-            <li className="nav-item active">
+            <li className="nav-item ">
               <Link to="/project" className="nav-link text-dark">Projects</Link>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item ">
               <Link to="/experience" className="nav-link text-dark">Experience</Link>
             </li>
             <li class="nav-item active">
