@@ -8,7 +8,7 @@ export default () => (
                     <div className="col-md-3 mb-5 d-flex align-items-center">
                         <img className="project-logo" src="https://www.playat.in/images/playatIcon.png" />
                     </div>
-                    <div className="col-md-9 ml-3 p-3">
+                    <div className="col-md-9 ml-2 p-2">
                         <p className="mb-0 font-weight-bold">PlayAt (Sports Ground/Court Booking APP)  </p>
                         <p className="mb-0 project-text">PlayAt is a ground booking Mobile App for Sports enthusiasts around Hyderabad, Developed
                             by Turpy Mobile Apps Pvt Ltd. PlayAt shows you nearby sports facilities and makes an instant
@@ -19,7 +19,7 @@ export default () => (
                     <div className="col-md-3 mb-5 d-flex align-items-center">
                         <img className="project-logo" src="https://lvr2.ibts.org/assets/images/lvr_logo.png" />
                     </div>
-                    <div className="col-md-9 ml-3 p-3">
+                    <div className="col-md-9 ml-2 p-2">
                         <p className="mb-0 font-weight-bold"> Label Verification Request System </p>
                         <p className="mb-0 project-text">The LVR system being built for IBTS allows for users to put in requests for Data Plates and/or  Label Verification for manufactured homes. The product has an intuitive, web-based interface for  external users to put in the request. The product also allows IBTS internal
                         staff to process the  request and issue the final letters and certificates via an online web-based fulfillment process </p>
