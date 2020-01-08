@@ -16,6 +16,9 @@ class Navi extends React.Component {
             <li class="nav-item active">
               <Link to="/about" className="nav-link text-dark">About</Link>
             </li>
+            <li className="nav-item active">
+                <Link to="/project" className="nav-link text-dark">Projects</Link>
+              </li>
             <li class="nav-item active">
               <Link to="/experience" className="nav-link text-dark">Experience</Link>
             </li>
