@@ -11,6 +11,5 @@ export default () => (
             <p className="pl-3"> <strong>Email</strong>:<span>shaikheena579@gmail.com</span></p>
         </div>
     </Layout>
-    //i dont know how to do 
-    //this time u will do for me next time i'll try
+    
 )
