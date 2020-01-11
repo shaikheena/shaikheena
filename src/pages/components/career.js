@@ -11,7 +11,7 @@ var summary = [
 export default () => (
     <div>
         <h3 className="text-warning">Career Summary</h3>
-        <ul>
+        <ul className="career">
             {summary.map((value, index) => (
                 <li key={index}>{value}</li>
             ))}

@@ -30,11 +30,11 @@ export default (props) => (
 
 const ProjectView = (props) => {
     const project = props.project;
-    return <div className="row p-2">
-        <div className="col-md-3 mt-3 ">
+    return <div className="row mt-3">
+        <div className="col-md-2  ">
             <img className="project-logo" src={project.img} />
         </div>
-        <div className="col-md-9 mt-3 ">
+        <div className="col-md-10 ">
             <p className="mb-0 font-weight-bold">{project.title}</p>
             <p className="mb-0 project-text">{project.description}</p>
             <p><strong>My Role</strong>: <i>​{project.role}</i>  </p>

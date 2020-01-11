@@ -5,10 +5,10 @@ import Skill from './components/skills'
 import Education from './components/education'
 export default () => (
     <Layout>
-        <div class="container">
+        <div>
 
             <h3 className="text-warning">About</h3>
-            <p className="pl-2">I am <b>Shaik Heena</b>. Flexible , Reliable and possess excellent time keeping skills. Love to
+            <p className="pl-2 self-detail">I am <b>Shaik Heena</b>. Flexible , Reliable and possess excellent time keeping skills. Love to
                 understanding people's problems and finding ways to solve them. Handling work independently in
                 busy environment and also within a team setting. And always open up for new challenges. Strive
                 to learn and teach as much as i can. Good team player with good Communication skills with strong
