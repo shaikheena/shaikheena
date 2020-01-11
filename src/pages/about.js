@@ -13,12 +13,12 @@ export default () => (
                 busy environment and also within a team setting. And always open up for new challenges. Strive
                 to learn and teach as much as i can. Good team player with good Communication skills with strong
                                 attitude towards learning new technologies.</p>
-            <Career/>
+            <Career />
             <hr />
-            <Skill/>
+            <Skill />
             <hr />
-            
-            <Education/>
+
+            <Education />
         </div>
     </Layout>
 )
@@ -26,4 +26,23 @@ export default () => (
 // Understand
 //ok
 
+//give a cade example to to demonstratic embedding two or more components into one
 
+// <Parent>
+//     <Child/>
+//     <Child/>
+//     <Child/>
+// </Parent>
+
+// <React.Fragment>
+
+// </React.Fragment>
+
+/**
+ * [
+ *  <Child />
+ *  <Child />
+ *  <Child />
+ * ]
+ *
+ */
