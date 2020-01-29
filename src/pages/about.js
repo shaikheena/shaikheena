@@ -5,7 +5,7 @@ import Skill from './components/skills'
 import Education from './components/education'
 export default () => (
     <Layout>
-        <div class="container">
+        <div className="container">
 
             <h3 className="text-warning">About</h3>
             <p className="pl-2">I am <b>Shaik Heena</b>. Flexible , Reliable and possess excellent time keeping skills. Love to
